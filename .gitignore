@@ -1,0 +1,11 @@
+*.o
+*.so.*
+*.swp
+bb_csvimport
+config.txt
+archive/
+csv/
+error/
+sql/
+err
+log

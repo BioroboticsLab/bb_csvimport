@@ -1,0 +1,33 @@
+//save result in one table or use minutely tables
+oneTable = 1
+
+//2014-07-24 13:00:00
+experimentBeginTime = 1406199600
+
+//2015-08-19 00:00:00
+//experimentBeginTime = 1439942400
+
+parserProcessCount = 2
+archiveName = bb_archive
+archiveDoneName = bb_done_archive
+
+
+//all next settings can be changed while programm is runnig
+
+remote_user = pepse
+remote_host = 1.2.3.4
+remote_working_path = /gfs2/work/bemwario/
+remote_results_dir = /gfs1/work/bebesook/results_2014/
+remote_results_done_dir = /gfs2/work/bemwario/results_2014_done/
+
+dbuser = postgres
+dbpassword = password
+dbdatabase = db
+dbhost = 127.0.0.1
+dbport = 5432
+
+tarFilesProArchive = 30
+maxLocalArchives = 2
+maxLocalCsvFiles = 300
+
+
